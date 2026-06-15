@@ -74,7 +74,7 @@ Generate a high-performance, secure, and production-grade XML/SOAP to REST/JSON 
 const DEFAULT_WSDL_TEMPLATES = [
   {
     id: "payment-service",
-    name: "Legacy Bank Payment Auth WSDL",
+    name: "Legacy Bank Payment Auth WSDL with XML",
     description: "SOAP-based legacy bank transaction authorization with explicit currency types and account details.",
     wsdl: `<?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
